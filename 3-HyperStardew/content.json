@@ -1,0 +1,1899 @@
+{
+  "Format": "2.6.0",
+  "Changes": [
+    {
+      "LogName": "Registrar idioma HyperStardew",
+      "Action": "EditData",
+      "Target": "Data/AdditionalLanguages",
+      "Entries": {
+        "{{ModId}}_Hyper": {
+          "ID": "{{ModId}}_Hyper",
+          "LanguageCode": "hyper",
+          "ButtonTexture": "Mods/{{ModId}}/Button",
+          "UseLatinFont": true,
+          "TimeFormat": "[HOURS_24_00]:[MINUTES]",
+          "ClockTimeFormat": "[HOURS_24_00]:[MINUTES]",
+          "ClockDateFormat": "[DAY_OF_WEEK] [DAY_OF_MONTH]"
+        }
+      }
+    },
+    {
+      "LogName": "Bandeirinha do botão de idioma",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Button",
+      "FromFile": "assets/button.png"
+    },
+    {
+      "LogName": "Logo na tela inicial",
+      "Action": "EditImage",
+      "Target": "Minigames/TitleButtons",
+      "FromFile": "assets/titleButtons.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Abigail",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Abigail",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Abigail.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Alex",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Alex",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Alex.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Caroline",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Caroline",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Caroline.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Clint",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Clint",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Clint.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Demetrius",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Demetrius",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Demetrius.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Dwarf",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Dwarf",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Dwarf.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Elliott",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Elliott",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Elliott.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Emily",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Emily",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Emily.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Evelyn",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Evelyn",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Evelyn.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/George",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/George",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/George.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Gil",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Gil",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Gil.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Gus",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Gus",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Gus.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Haley",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Haley",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Haley.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Harvey",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Harvey",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Harvey.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Jas",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Jas",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Jas.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Jodi",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Jodi",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Jodi.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Kent",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kent",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Kent.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Krobus",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Krobus",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Krobus.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Leah",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Leah",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Leah.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Leo",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Leo",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Leo.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/LeoMainland",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/LeoMainland",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/LeoMainland.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Lewis",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lewis",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Lewis.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Linus",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Linus",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Linus.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Marnie",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Marnie",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Marnie.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogue.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueAbigail",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueAbigail.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueAlex",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueAlex",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueAlex.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueElliott",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueElliott",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueElliott.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueEmily",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueEmily",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueEmily.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueHaley",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueHaley",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueHaley.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueHarvey",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueHarvey",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueHarvey.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueKrobus",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueKrobus",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueKrobus.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueLeah",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueLeah",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueLeah.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueMaru",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMaru",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueMaru.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialoguePenny",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialoguePenny",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialoguePenny.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueSam",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueSam",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueSam.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueSebastian",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueSebastian",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueSebastian.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/MarriageDialogueShane",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueShane",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/MarriageDialogueShane.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Maru",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Maru",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Maru.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Mister Qi",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mister Qi",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Mister Qi.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Pam",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Pam",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Pam.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Penny",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Penny",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Penny.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Pierre",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Pierre",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Pierre.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Robin",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Robin",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Robin.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Sam",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Sam",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Sam.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Sandy",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Sandy",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Sandy.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Sebastian",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Sebastian",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Sebastian.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Shane",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Shane",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Shane.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Vincent",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Vincent",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Vincent.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Willy",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Willy",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Willy.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/Wizard",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Wizard",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/Wizard.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Characters/Dialogue/rainy",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/rainy",
+      "FromFile": "assets/i18n_hyper/Characters/Dialogue/rainy.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Achievements",
+      "Action": "Load",
+      "Target": "Data/Achievements",
+      "FromFile": "assets/i18n_hyper/Data/Achievements.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Boots",
+      "Action": "Load",
+      "Target": "Data/Boots",
+      "FromFile": "assets/i18n_hyper/Data/Boots.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Bundles",
+      "Action": "Load",
+      "Target": "Data/Bundles",
+      "FromFile": "assets/i18n_hyper/Data/Bundles.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/EngagementDialogue",
+      "Action": "Load",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/i18n_hyper/Data/EngagementDialogue.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/AbandonedJojaMart",
+      "Action": "Load",
+      "Target": "Data/Events/AbandonedJojaMart",
+      "FromFile": "assets/i18n_hyper/Data/Events/AbandonedJojaMart.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/AnimalShop",
+      "Action": "Load",
+      "Target": "Data/Events/AnimalShop",
+      "FromFile": "assets/i18n_hyper/Data/Events/AnimalShop.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/ArchaeologyHouse",
+      "Action": "Load",
+      "Target": "Data/Events/ArchaeologyHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/ArchaeologyHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Backwoods",
+      "Action": "Load",
+      "Target": "Data/Events/Backwoods",
+      "FromFile": "assets/i18n_hyper/Data/Events/Backwoods.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/BathHouse_Pool",
+      "Action": "Load",
+      "Target": "Data/Events/BathHouse_Pool",
+      "FromFile": "assets/i18n_hyper/Data/Events/BathHouse_Pool.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Beach",
+      "Action": "Load",
+      "Target": "Data/Events/Beach",
+      "FromFile": "assets/i18n_hyper/Data/Events/Beach.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/BoatTunnel",
+      "Action": "Load",
+      "Target": "Data/Events/BoatTunnel",
+      "FromFile": "assets/i18n_hyper/Data/Events/BoatTunnel.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/BusStop",
+      "Action": "Load",
+      "Target": "Data/Events/BusStop",
+      "FromFile": "assets/i18n_hyper/Data/Events/BusStop.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/CommunityCenter",
+      "Action": "Load",
+      "Target": "Data/Events/CommunityCenter",
+      "FromFile": "assets/i18n_hyper/Data/Events/CommunityCenter.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/DesertFestival",
+      "Action": "Load",
+      "Target": "Data/Events/DesertFestival",
+      "FromFile": "assets/i18n_hyper/Data/Events/DesertFestival.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/ElliottHouse",
+      "Action": "Load",
+      "Target": "Data/Events/ElliottHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/ElliottHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Farm",
+      "Action": "Load",
+      "Target": "Data/Events/Farm",
+      "FromFile": "assets/i18n_hyper/Data/Events/Farm.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/FarmHouse",
+      "Action": "Load",
+      "Target": "Data/Events/FarmHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/FarmHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/FishShop",
+      "Action": "Load",
+      "Target": "Data/Events/FishShop",
+      "FromFile": "assets/i18n_hyper/Data/Events/FishShop.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Forest",
+      "Action": "Load",
+      "Target": "Data/Events/Forest",
+      "FromFile": "assets/i18n_hyper/Data/Events/Forest.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/HaleyHouse",
+      "Action": "Load",
+      "Target": "Data/Events/HaleyHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/HaleyHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/HarveyRoom",
+      "Action": "Load",
+      "Target": "Data/Events/HarveyRoom",
+      "FromFile": "assets/i18n_hyper/Data/Events/HarveyRoom.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Hospital",
+      "Action": "Load",
+      "Target": "Data/Events/Hospital",
+      "FromFile": "assets/i18n_hyper/Data/Events/Hospital.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/IslandHut",
+      "Action": "Load",
+      "Target": "Data/Events/IslandHut",
+      "FromFile": "assets/i18n_hyper/Data/Events/IslandHut.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/IslandNorth",
+      "Action": "Load",
+      "Target": "Data/Events/IslandNorth",
+      "FromFile": "assets/i18n_hyper/Data/Events/IslandNorth.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/IslandSouth",
+      "Action": "Load",
+      "Target": "Data/Events/IslandSouth",
+      "FromFile": "assets/i18n_hyper/Data/Events/IslandSouth.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/IslandWest",
+      "Action": "Load",
+      "Target": "Data/Events/IslandWest",
+      "FromFile": "assets/i18n_hyper/Data/Events/IslandWest.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/JoshHouse",
+      "Action": "Load",
+      "Target": "Data/Events/JoshHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/JoshHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/LeahHouse",
+      "Action": "Load",
+      "Target": "Data/Events/LeahHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/LeahHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/ManorHouse",
+      "Action": "Load",
+      "Target": "Data/Events/ManorHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/ManorHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Mine",
+      "Action": "Load",
+      "Target": "Data/Events/Mine",
+      "FromFile": "assets/i18n_hyper/Data/Events/Mine.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Mountain",
+      "Action": "Load",
+      "Target": "Data/Events/Mountain",
+      "FromFile": "assets/i18n_hyper/Data/Events/Mountain.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/QiNutRoom",
+      "Action": "Load",
+      "Target": "Data/Events/QiNutRoom",
+      "FromFile": "assets/i18n_hyper/Data/Events/QiNutRoom.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Railroad",
+      "Action": "Load",
+      "Target": "Data/Events/Railroad",
+      "FromFile": "assets/i18n_hyper/Data/Events/Railroad.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Saloon",
+      "Action": "Load",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/i18n_hyper/Data/Events/Saloon.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/SamHouse",
+      "Action": "Load",
+      "Target": "Data/Events/SamHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/SamHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/SandyHouse",
+      "Action": "Load",
+      "Target": "Data/Events/SandyHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/SandyHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/ScienceHouse",
+      "Action": "Load",
+      "Target": "Data/Events/ScienceHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/ScienceHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/SebastianRoom",
+      "Action": "Load",
+      "Target": "Data/Events/SebastianRoom",
+      "FromFile": "assets/i18n_hyper/Data/Events/SebastianRoom.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/SeedShop",
+      "Action": "Load",
+      "Target": "Data/Events/SeedShop",
+      "FromFile": "assets/i18n_hyper/Data/Events/SeedShop.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Sewer",
+      "Action": "Load",
+      "Target": "Data/Events/Sewer",
+      "FromFile": "assets/i18n_hyper/Data/Events/Sewer.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Sunroom",
+      "Action": "Load",
+      "Target": "Data/Events/Sunroom",
+      "FromFile": "assets/i18n_hyper/Data/Events/Sunroom.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Temp",
+      "Action": "Load",
+      "Target": "Data/Events/Temp",
+      "FromFile": "assets/i18n_hyper/Data/Events/Temp.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Tent",
+      "Action": "Load",
+      "Target": "Data/Events/Tent",
+      "FromFile": "assets/i18n_hyper/Data/Events/Tent.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Town",
+      "Action": "Load",
+      "Target": "Data/Events/Town",
+      "FromFile": "assets/i18n_hyper/Data/Events/Town.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Trailer",
+      "Action": "Load",
+      "Target": "Data/Events/Trailer",
+      "FromFile": "assets/i18n_hyper/Data/Events/Trailer.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Trailer_Big",
+      "Action": "Load",
+      "Target": "Data/Events/Trailer_Big",
+      "FromFile": "assets/i18n_hyper/Data/Events/Trailer_Big.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/WizardHouse",
+      "Action": "Load",
+      "Target": "Data/Events/WizardHouse",
+      "FromFile": "assets/i18n_hyper/Data/Events/WizardHouse.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Events/Woods",
+      "Action": "Load",
+      "Target": "Data/Events/Woods",
+      "FromFile": "assets/i18n_hyper/Data/Events/Woods.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/ExtraDialogue",
+      "Action": "Load",
+      "Target": "Data/ExtraDialogue",
+      "FromFile": "assets/i18n_hyper/Data/ExtraDialogue.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/FestivalDates",
+      "Action": "Load",
+      "Target": "Data/Festivals/FestivalDates",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/FestivalDates.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/fall16",
+      "Action": "Load",
+      "Target": "Data/Festivals/fall16",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/fall16.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/fall27",
+      "Action": "Load",
+      "Target": "Data/Festivals/fall27",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/fall27.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/spring13",
+      "Action": "Load",
+      "Target": "Data/Festivals/spring13",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/spring13.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/spring24",
+      "Action": "Load",
+      "Target": "Data/Festivals/spring24",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/spring24.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/summer11",
+      "Action": "Load",
+      "Target": "Data/Festivals/summer11",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/summer11.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/summer28",
+      "Action": "Load",
+      "Target": "Data/Festivals/summer28",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/summer28.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/winter25",
+      "Action": "Load",
+      "Target": "Data/Festivals/winter25",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/winter25.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Festivals/winter8",
+      "Action": "Load",
+      "Target": "Data/Festivals/winter8",
+      "FromFile": "assets/i18n_hyper/Data/Festivals/winter8.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Monsters",
+      "Action": "Load",
+      "Target": "Data/Monsters",
+      "FromFile": "assets/i18n_hyper/Data/Monsters.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/NPCGiftTastes",
+      "Action": "Load",
+      "Target": "Data/NPCGiftTastes",
+      "FromFile": "assets/i18n_hyper/Data/NPCGiftTastes.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/Quests",
+      "Action": "Load",
+      "Target": "Data/Quests",
+      "FromFile": "assets/i18n_hyper/Data/Quests.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/SecretNotes",
+      "Action": "Load",
+      "Target": "Data/SecretNotes",
+      "FromFile": "assets/i18n_hyper/Data/SecretNotes.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/TV/CookingChannel",
+      "Action": "Load",
+      "Target": "Data/TV/CookingChannel",
+      "FromFile": "assets/i18n_hyper/Data/TV/CookingChannel.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/TV/TipChannel",
+      "Action": "Load",
+      "Target": "Data/TV/TipChannel",
+      "FromFile": "assets/i18n_hyper/Data/TV/TipChannel.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/hats",
+      "Action": "Load",
+      "Target": "Data/hats",
+      "FromFile": "assets/i18n_hyper/Data/hats.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Data/mail",
+      "Action": "Load",
+      "Target": "Data/mail",
+      "FromFile": "assets/i18n_hyper/Data/mail.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/1_6_Strings",
+      "Action": "Load",
+      "Target": "Strings/1_6_Strings",
+      "FromFile": "assets/i18n_hyper/Strings/1_6_Strings.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/BigCraftables",
+      "Action": "Load",
+      "Target": "Strings/BigCraftables",
+      "FromFile": "assets/i18n_hyper/Strings/BigCraftables.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Buildings",
+      "Action": "Load",
+      "Target": "Strings/Buildings",
+      "FromFile": "assets/i18n_hyper/Strings/Buildings.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/BundleNames",
+      "Action": "Load",
+      "Target": "Strings/BundleNames",
+      "FromFile": "assets/i18n_hyper/Strings/BundleNames.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Characters",
+      "Action": "Load",
+      "Target": "Strings/Characters",
+      "FromFile": "assets/i18n_hyper/Strings/Characters.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/EnchantmentNames",
+      "Action": "Load",
+      "Target": "Strings/EnchantmentNames",
+      "FromFile": "assets/i18n_hyper/Strings/EnchantmentNames.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Events",
+      "Action": "Load",
+      "Target": "Strings/Events",
+      "FromFile": "assets/i18n_hyper/Strings/Events.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/FarmAnimals",
+      "Action": "Load",
+      "Target": "Strings/FarmAnimals",
+      "FromFile": "assets/i18n_hyper/Strings/FarmAnimals.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Furniture",
+      "Action": "Load",
+      "Target": "Strings/Furniture",
+      "FromFile": "assets/i18n_hyper/Strings/Furniture.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Lexicon",
+      "Action": "Load",
+      "Target": "Strings/Lexicon",
+      "FromFile": "assets/i18n_hyper/Strings/Lexicon.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Locations",
+      "Action": "Load",
+      "Target": "Strings/Locations",
+      "FromFile": "assets/i18n_hyper/Strings/Locations.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/MovieConcessions",
+      "Action": "Load",
+      "Target": "Strings/MovieConcessions",
+      "FromFile": "assets/i18n_hyper/Strings/MovieConcessions.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/MovieReactions",
+      "Action": "Load",
+      "Target": "Strings/MovieReactions",
+      "FromFile": "assets/i18n_hyper/Strings/MovieReactions.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Movies",
+      "Action": "Load",
+      "Target": "Strings/Movies",
+      "FromFile": "assets/i18n_hyper/Strings/Movies.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/NPCNames",
+      "Action": "Load",
+      "Target": "Strings/NPCNames",
+      "FromFile": "assets/i18n_hyper/Strings/NPCNames.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Notes",
+      "Action": "Load",
+      "Target": "Strings/Notes",
+      "FromFile": "assets/i18n_hyper/Strings/Notes.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Objects",
+      "Action": "Load",
+      "Target": "Strings/Objects",
+      "FromFile": "assets/i18n_hyper/Strings/Objects.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Pants",
+      "Action": "Load",
+      "Target": "Strings/Pants",
+      "FromFile": "assets/i18n_hyper/Strings/Pants.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Quests",
+      "Action": "Load",
+      "Target": "Strings/Quests",
+      "FromFile": "assets/i18n_hyper/Strings/Quests.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Shirts",
+      "Action": "Load",
+      "Target": "Strings/Shirts",
+      "FromFile": "assets/i18n_hyper/Strings/Shirts.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/SimpleNonVillagerDialogues",
+      "Action": "Load",
+      "Target": "Strings/SimpleNonVillagerDialogues",
+      "FromFile": "assets/i18n_hyper/Strings/SimpleNonVillagerDialogues.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/SpecialOrderStrings",
+      "Action": "Load",
+      "Target": "Strings/SpecialOrderStrings",
+      "FromFile": "assets/i18n_hyper/Strings/SpecialOrderStrings.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/SpeechBubbles",
+      "Action": "Load",
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/i18n_hyper/Strings/SpeechBubbles.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/StringsFromCSFiles",
+      "Action": "Load",
+      "Target": "Strings/StringsFromCSFiles",
+      "FromFile": "assets/i18n_hyper/Strings/StringsFromCSFiles.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/StringsFromMaps",
+      "Action": "Load",
+      "Target": "Strings/StringsFromMaps",
+      "FromFile": "assets/i18n_hyper/Strings/StringsFromMaps.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Tools",
+      "Action": "Load",
+      "Target": "Strings/Tools",
+      "FromFile": "assets/i18n_hyper/Strings/Tools.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/UI",
+      "Action": "Load",
+      "Target": "Strings/UI",
+      "FromFile": "assets/i18n_hyper/Strings/UI.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/Weapons",
+      "Action": "Load",
+      "Target": "Strings/Weapons",
+      "FromFile": "assets/i18n_hyper/Strings/Weapons.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/WorldMap",
+      "Action": "Load",
+      "Target": "Strings/WorldMap",
+      "FromFile": "assets/i18n_hyper/Strings/WorldMap.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/animationDescriptions",
+      "Action": "Load",
+      "Target": "Strings/animationDescriptions",
+      "FromFile": "assets/i18n_hyper/Strings/animationDescriptions.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/credits",
+      "Action": "Load",
+      "Target": "Strings/credits",
+      "FromFile": "assets/i18n_hyper/Strings/credits.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Abigail",
+      "Action": "Load",
+      "Target": "Strings/schedules/Abigail",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Abigail.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Alex",
+      "Action": "Load",
+      "Target": "Strings/schedules/Alex",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Alex.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Caroline",
+      "Action": "Load",
+      "Target": "Strings/schedules/Caroline",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Caroline.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Clint",
+      "Action": "Load",
+      "Target": "Strings/schedules/Clint",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Clint.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Demetrius",
+      "Action": "Load",
+      "Target": "Strings/schedules/Demetrius",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Demetrius.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Elliott",
+      "Action": "Load",
+      "Target": "Strings/schedules/Elliott",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Elliott.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Emily",
+      "Action": "Load",
+      "Target": "Strings/schedules/Emily",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Emily.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Evelyn",
+      "Action": "Load",
+      "Target": "Strings/schedules/Evelyn",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Evelyn.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/George",
+      "Action": "Load",
+      "Target": "Strings/schedules/George",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/George.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Gus",
+      "Action": "Load",
+      "Target": "Strings/schedules/Gus",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Gus.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Haley",
+      "Action": "Load",
+      "Target": "Strings/schedules/Haley",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Haley.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Harvey",
+      "Action": "Load",
+      "Target": "Strings/schedules/Harvey",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Harvey.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Jas",
+      "Action": "Load",
+      "Target": "Strings/schedules/Jas",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Jas.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Jodi",
+      "Action": "Load",
+      "Target": "Strings/schedules/Jodi",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Jodi.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Leah",
+      "Action": "Load",
+      "Target": "Strings/schedules/Leah",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Leah.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Leo",
+      "Action": "Load",
+      "Target": "Strings/schedules/Leo",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Leo.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Lewis",
+      "Action": "Load",
+      "Target": "Strings/schedules/Lewis",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Lewis.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Linus",
+      "Action": "Load",
+      "Target": "Strings/schedules/Linus",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Linus.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Marnie",
+      "Action": "Load",
+      "Target": "Strings/schedules/Marnie",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Marnie.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Maru",
+      "Action": "Load",
+      "Target": "Strings/schedules/Maru",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Maru.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Pam",
+      "Action": "Load",
+      "Target": "Strings/schedules/Pam",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Pam.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Penny",
+      "Action": "Load",
+      "Target": "Strings/schedules/Penny",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Penny.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Pierre",
+      "Action": "Load",
+      "Target": "Strings/schedules/Pierre",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Pierre.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Robin",
+      "Action": "Load",
+      "Target": "Strings/schedules/Robin",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Robin.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Sam",
+      "Action": "Load",
+      "Target": "Strings/schedules/Sam",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Sam.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Sandy",
+      "Action": "Load",
+      "Target": "Strings/schedules/Sandy",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Sandy.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Sebastian",
+      "Action": "Load",
+      "Target": "Strings/schedules/Sebastian",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Sebastian.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Shane",
+      "Action": "Load",
+      "Target": "Strings/schedules/Shane",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Shane.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Vincent",
+      "Action": "Load",
+      "Target": "Strings/schedules/Vincent",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Vincent.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Strings/schedules/Willy",
+      "Action": "Load",
+      "Target": "Strings/schedules/Willy",
+      "FromFile": "assets/i18n_hyper/Strings/schedules/Willy.json",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: LooseSprites/Billboard",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Billboard",
+      "FromFile": "assets/images/LooseSprites/Billboard.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: LooseSprites/ControllerMaps",
+      "Action": "EditImage",
+      "Target": "LooseSprites/ControllerMaps",
+      "FromFile": "assets/images/LooseSprites/ControllerMaps.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: LooseSprites/Cursors",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/images/LooseSprites/Cursors.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: LooseSprites/JojaCDForm",
+      "Action": "EditImage",
+      "Target": "LooseSprites/JojaCDForm",
+      "FromFile": "assets/images/LooseSprites/JojaCDForm.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: LooseSprites/JunimoNote",
+      "Action": "EditImage",
+      "Target": "LooseSprites/JunimoNote",
+      "FromFile": "assets/images/LooseSprites/JunimoNote.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: LooseSprites/MobileAtlas_manually_made",
+      "Action": "EditImage",
+      "Target": "LooseSprites/MobileAtlas_manually_made",
+      "FromFile": "assets/images/LooseSprites/MobileAtlas_manually_made.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/DesertTiles",
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/images/Maps/DesertTiles.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/Festivals",
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "assets/images/Maps/Festivals.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/bathhouse_tiles",
+      "Action": "EditImage",
+      "Target": "Maps/bathhouse_tiles",
+      "FromFile": "assets/images/Maps/bathhouse_tiles.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/coopTiles",
+      "Action": "EditImage",
+      "Target": "Maps/coopTiles",
+      "FromFile": "assets/images/Maps/coopTiles.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/fall_beach",
+      "Action": "EditImage",
+      "Target": "Maps/fall_beach",
+      "FromFile": "assets/images/Maps/fall_beach.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/fall_outdoorsTileSheet",
+      "Action": "EditImage",
+      "Target": "Maps/fall_outdoorsTileSheet",
+      "FromFile": "assets/images/Maps/fall_outdoorsTileSheet.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/fall_town",
+      "Action": "EditImage",
+      "Target": "Maps/fall_town",
+      "FromFile": "assets/images/Maps/fall_town.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/samshowtiles",
+      "Action": "EditImage",
+      "Target": "Maps/samshowtiles",
+      "FromFile": "assets/images/Maps/samshowtiles.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/spring_beach",
+      "Action": "EditImage",
+      "Target": "Maps/spring_beach",
+      "FromFile": "assets/images/Maps/spring_beach.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/spring_outdoorsTileSheet",
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTileSheet",
+      "FromFile": "assets/images/Maps/spring_outdoorsTileSheet.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/spring_town",
+      "Action": "EditImage",
+      "Target": "Maps/spring_town",
+      "FromFile": "assets/images/Maps/spring_town.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/springobjects",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/images/Maps/springobjects.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/summer_beach",
+      "Action": "EditImage",
+      "Target": "Maps/summer_beach",
+      "FromFile": "assets/images/Maps/summer_beach.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/summer_outdoorsTileSheet",
+      "Action": "EditImage",
+      "Target": "Maps/summer_outdoorsTileSheet",
+      "FromFile": "assets/images/Maps/summer_outdoorsTileSheet.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/summer_town",
+      "Action": "EditImage",
+      "Target": "Maps/summer_town",
+      "FromFile": "assets/images/Maps/summer_town.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/townInterior",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/images/Maps/townInterior.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/winter_beach",
+      "Action": "EditImage",
+      "Target": "Maps/winter_beach",
+      "FromFile": "assets/images/Maps/winter_beach.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/winter_outdoorsTileSheet",
+      "Action": "EditImage",
+      "Target": "Maps/winter_outdoorsTileSheet",
+      "FromFile": "assets/images/Maps/winter_outdoorsTileSheet.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Maps/winter_town",
+      "Action": "EditImage",
+      "Target": "Maps/winter_town",
+      "FromFile": "assets/images/Maps/winter_town.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Minigames/Intro",
+      "Action": "EditImage",
+      "Target": "Minigames/Intro",
+      "FromFile": "assets/images/Minigames/Intro.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Minigames/Xb1ProfileButton",
+      "Action": "EditImage",
+      "Target": "Minigames/Xb1ProfileButton",
+      "FromFile": "assets/images/Minigames/Xb1ProfileButton.png",
+      "When": {
+        "Language": "hyper"
+      }
+    },
+    {
+      "LogName": "Hyper: Minigames/jojacorps",
+      "Action": "EditImage",
+      "Target": "Minigames/jojacorps",
+      "FromFile": "assets/images/Minigames/jojacorps.png",
+      "When": {
+        "Language": "hyper"
+      }
+    }
+  ]
+}

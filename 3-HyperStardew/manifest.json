@@ -1,0 +1,13 @@
+{
+  "Name": "HyperStardew",
+  "Author": "C3B",
+  "Version": "1.0.0",
+  "Description": "Stardew Valley hipertraduzido. Textos passados várias vezes no tradutor até virar arte abstrata.",
+  "UniqueID": "C3B.HyperStardew",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  }
+}

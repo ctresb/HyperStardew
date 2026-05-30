@@ -1894,6 +1894,34 @@
       "When": {
         "Language": "hyper"
       }
+    },
+    {
+      "LogName": "Hyper: Load Filipe painting texture",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/FilipePainting",
+      "FromFile": "assets/furniture/filipe_painting.png"
+    },
+    {
+      "LogName": "Hyper: Add Filipe painting furniture",
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "{{ModId}}_FilipePainting": "Filipe/painting/3 3/3 3/1/11/-1/Filipe/0/Mods\\\\{{ModId}}\\\\FilipePainting/true"
+      }
+    },
+    {
+      "LogName": "Hyper: Sell Filipe painting at Robin's shop",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "Carpenter", "Items" ],
+      "Entries": {
+        "{{ModId}}_FilipePainting": {
+          "Id": "{{ModId}}_FilipePainting",
+          "ItemId": "(F){{ModId}}_FilipePainting",
+          "Price": 11,
+          "AvailableStock": -1
+        }
+      }
     }
   ]
 }

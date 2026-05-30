@@ -8,7 +8,7 @@
   "demetrius_dance": "Demétrio está ocupado.",
   "demetrius_read": "Somos diferentes dos outros. Talvez o mundo seja um lugar melhor para o Vale do Alvalho.",
   "emily_exercise": "O exercício é divertido!",
-  "robin_exercise": "Eu tenho mãos fortes *Quarta-feira*Mas você tem que usar as pernas... *cansaço*.",
+  "robin_exercise": "Eu tenho mãos fortes *Quarta-feira * Mas você tem que usar as pernas... * cansaço*.",
   "caroline_exercise": "Você não pode me ver. Meu rosto estava vermelho e suado.$s",
   "shane_work": "Shane é implacável e com os lábios tensos.",
   "marnie_exercise": "Marnie olhou para você com um sorriso suado.",
@@ -18,6 +18,6 @@
   "sam_guitar": "Sam toca guitarra",
   "sam_gameboy": "Bem... precisamos chegar lá.$7",
   "sam_skateboarding": "Sam tentou acertá-lo.",
-  "sam_pool": "$c .5#Então vamos lançar...$7#$e#*suspiro...* Comecei a ficar com medo.$s",
+  "sam_pool": "$c .5#Então vamos lançar... $7#$e#suspiro...$s",
   "sam_work": "Felizmente, o Sr. Sam não a machucou."
 }

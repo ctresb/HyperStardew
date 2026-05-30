@@ -1,7 +1,7 @@
 {
   "Rainy_Day_0": "Finalmente começou a chover. Canso-me facilmente ao sol.",
-  "Rainy_Day_1": "não importa @Lembro-me do porão onde morava. Foi divertido, mas eu realmente gostei. Não se esqueça do cheiro...#$e#Tenho vergonha de ter ficado muito tempo com minha mãe.",
-  "Rainy_Day_2": "não importa @Não consegui dormir ontem à noite e fui para a caverna. como você está [575 769 767 84 66 78]#$e#Às vezes você não consegue dormir, mas não se importa; eu amo vc$7",
+  "Rainy_Day_1": "não importa @ Lembro-me do porão onde morava. Foi divertido, mas eu realmente gostei. Não se esqueça do cheiro...#$e#Tenho vergonha de ter ficado muito tempo com minha mãe.",
+  "Rainy_Day_2": "não importa @ Não consegui dormir ontem à noite e fui para a caverna. como você está [575 769 767 84 66 78]#$e#Às vezes você não consegue dormir, mas não se importa; eu amo vc$7",
   "Rainy_Day_3": "Acho que hoje é um bom dia para descansar, ler um livro, fazer alguma coisa...",
   "Rainy_Day_4": "NO! Mais um dia chuvoso... perfeito#$e#Próximo!$l",
   "Rainy_Night_0": "Agora casamento. Estou tentando parar de fumar... Não quero morrer na sua frente. Este é um mau hábito.#$e#Quero construir uma vida futura com você.$l",
@@ -15,7 +15,7 @@
   "Indoor_Day_2": "Como ontem não consegui dormir, fui dar um passeio de bicicleta naquela noite.#$e#Sou casado, mas preciso de apoio. Estou sozinho, mas ainda te amo.$7",
   "Indoor_Day_3": "não importa @. Ontem à noite dormi bem. Eu me lembro do que eu disse#$e#Fiquei com medo, mas tive que concordar. Que maravilha.$l",
   "Indoor_Day_4": "Me sinto bem com você, acho que é normal para mim.$7",
-  "Indoor_Night_0": "não importa @Fui para casa hoje. Nada de interessante...#$e#...#$e#Aproveite o sol na varanda da Villa Pelikanas com vista para a nossa casa.",
+  "Indoor_Night_0": "não importa @ Fui para casa hoje. Nada de interessante...#$e#...#$e#Aproveite o sol na varanda da Villa Pelikanas com vista para a nossa casa.",
   "Indoor_Night_1": "Pensando bem... não estou entediado.#$e#Ainda estamos buscando um cronograma de entrega. Acordei às 5 da manhã. Às vezes vou dormir às duas da manhã.$h",
   "Indoor_Night_2": "Ter casa própria é bom. Posso fazer o que quiser e as pessoas nunca reclamam de mim.#$e#Acho que o Sr. Maru definitivamente ficará feliz também.",
   "Indoor_Night_3": "Eu vi um morcego pela janela. É muito difícil, mas se você tiver cuidado você pode voar.",
@@ -27,11 +27,11 @@
   "Outdoor_4": "Acho que é um tanto simples e útil para as pessoas. E é fácil de fazer.#$e#Além disso, o muco produz cores diferentes. Não sei, mas acho que serei feliz.",
   "OneKid_0": "Não se preocupe, eu também sou pai. Muito fácil de ler.  %kid1! Isso é novidade.",
   "OneKid_1": "um dia %kid1 Quando eu cresci, compramos uma bicicleta juntos.$h",
-  "OneKid_3": "Cheira como você %kid1Como a hora do banho.",
+  "OneKid_3": "Cheira como você %kid1 Como a hora do banho.",
   "TwoKids_0": "Não se preocupe com a taxa de envio.. %kid2 Coloquei o chocolate na camisa novamente.",
   "TwoKids_1": "Ensino %kid1 e %kid2 Seja gentil um com o outro. Quando éramos jovens tivemos que sofrer muito.#$e#Agora que penso nisso, a culpa foi principalmente minha.",
   "TwoKids_2": "Às vezes tenho sonhos. %kid2 Ele estava sentado no trono vestindo roupas pretas. Você está surpreso?",
-  "TwoKids_3": "Percorremos um longo caminho. @Olhe para a nossa família. Para ser sincero, não esperava que isso acontecesse.#$e#Mas agora vem a parte divertida...$l",
+  "TwoKids_3": "Percorremos um longo caminho. @ Olhe para a nossa família. Para ser sincero, não esperava que isso acontecesse.#$e#Mas agora vem a parte divertida...$l",
   "Good_0": "não importa @. Olhe para mim e lembre-se que eu te amo... você é meu tudo.$l#$b#Eu ganho dinheiro agora.$h",
   "Good_1": "Olá... você veio hoje e está tão linda.$l",
   "Good_2": "Depois de muito tempo no parque. Você ainda é linda$l",
@@ -65,5 +65,5 @@
   "fall_26": "Esperamos uma noite movimentada amanhã. Que tipo de tragédia o espera lá?$h",
   "winter_1": "Quais são seus planos para o próximo verão? Eu sei que é hora de descansar.",
   "winter_7": "Você vai pescar amanhã?",
-  "winter_28": "Foi um ano muito bom. @Acho que deveríamos aumentar [346]$h#$e#Esperamos que o próximo ano seja melhor.$7"
+  "winter_28": "Foi um ano muito bom. @ Acho que deveríamos aumentar [346]$h#$e#Esperamos que o próximo ano seja melhor.$7"
 }
